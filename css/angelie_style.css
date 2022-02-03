@@ -279,3 +279,16 @@ h4 {
     align-items: center;
     margin-top: 5em;
 }
+
+/*Hover color*/
+.yellow:hover {
+    background-color: #FFC003;
+}
+
+.red:hover {
+    background-color: #720800;
+}
+
+.blue:hover {
+    background-color: #53a4df;
+}

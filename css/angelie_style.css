@@ -268,3 +268,12 @@ h4 {
     align-items: center;
     margin-top: 3em;
 }
+
+/*API FETCH2*/
+
+.illustration-fetch2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}

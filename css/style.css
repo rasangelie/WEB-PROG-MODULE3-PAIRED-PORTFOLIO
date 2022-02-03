@@ -44,7 +44,7 @@ a {
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     padding: 5px;
 }
@@ -80,7 +80,7 @@ h2 {
 h3 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     text-align: center;
 
@@ -91,6 +91,7 @@ h3 {
     grid-template-columns: 2fr 2fr;
     height: 340px;
     border-top: 1px solid white;
+    
     /* background-color: wheat; */
 }
 
@@ -107,26 +108,29 @@ img {
     border-right: 1px solid white;
 }
 
+.angelie:hover {
+    background-color: #FFC003;;
+    
+}
 
 .ange-dp {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-   
     bottom: 5em;
     z-index: 1;
-    
-    /* transition: 0.5s; */
+    transition: 0.5s;
    
 }
 
 
-/* .ange-dp:hover {
+.ange-dp:hover {
     width: 269px;
     height: 269px;
     
-} */
+    
+}
 
 .name-container {
     display: flex;
@@ -156,8 +160,8 @@ img {
     bottom: 1em;
 }
 
-.kagie {
-    /* background-color: thistle; */
+.kagie:hover {
+    background-color: #FF473B;;
     
 }
 

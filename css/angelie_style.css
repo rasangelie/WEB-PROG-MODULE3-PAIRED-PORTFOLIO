@@ -111,6 +111,7 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 2em 8em 2em 8em;
+    row-gap: 5em;
     
 }
 
@@ -248,4 +249,22 @@ h4 {
     left: 2em;
     top: 0.25em;
    
+}
+
+/*Calorie Tracker*/
+
+.illustration-calorie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+/*Online Animal Adaption*/
+
+.illustration-adaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
 }

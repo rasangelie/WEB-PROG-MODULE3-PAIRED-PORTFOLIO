@@ -1,0 +1,104 @@
+html {
+    background-color: #F5F5F5;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-left: 3em;
+    position: relative;
+    left: 3em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+a:hover{
+    background-color: #DF3433;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: black;
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-column-gap: 5em; */
+    
+}
+
+.content {
+    margin-left: 9em;
+    margin-top: 7em;
+}
+
+.description {
+    position: relative;
+    bottom: 2em;
+    left: 1em;
+}
+
+.hokkaido {
+    position: relative;
+    right: 5em;
+
+}
+
+.bg {
+    position: relative;
+    bottom: 16em;
+    left: 33em;
+    opacity: 0.75;
+}
+
+
+.button {
+    position: relative;
+    bottom: 19em;
+    left: 13em;
+    
+}
+
+.button{
+    transition: transform .2s;
+}
+
+.button:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1);  
+}

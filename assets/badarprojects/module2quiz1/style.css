@@ -1,0 +1,387 @@
+html {
+    background-color: #101010;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 25px 40px 40px 40px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 3em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 1em;
+    
+}
+
+.horizontal-line {
+    position: relative;
+    bottom: 1.2em;
+    width: 86%;
+    
+}
+
+
+.opening {
+    position: relative;
+    bottom: 2em;
+    margin: 0 6em 0 6em;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+h3 {
+    position: relative;
+    top: 1em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 200;
+    font-size: 16px;
+    padding-bottom: 1em;
+    line-height: 30px;
+    
+    
+}
+
+.opening-title{
+    text-align: center;
+}
+
+.opening-parag {
+    position: relative;
+    bottom: 1em;
+    text-align: center;
+}
+
+.art-cover {
+    position: relative;
+    bottom: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horizontal-line-2 {
+    position: relative;
+    top: 0.3em;
+    width: 86%;
+    
+}
+
+.influential-part{
+    position: relative;
+    margin: 1em 6em 0 6em;
+}
+
+.influ-parag {
+    position: relative;
+    bottom: 1em;
+    
+}
+
+.flex-container {
+    margin: 1em 6em 3em 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    
+}
+
+.flex-content {
+    border: 0.15px solid white;
+    padding: 30px;
+    transition: transform .2s;
+}
+
+.flex-content:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+#flex-yellow:hover {
+    background-color: #FFC003;
+}
+
+#flex-red:hover {
+    background-color: #FF473B;
+}
+
+#flex-sky:hover {
+    background-color: #94C2E3;
+}
+
+
+.hover {
+    position: relative;
+    top:0.5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 600;
+    font-size: 24px;
+}
+.hover:hover{
+
+    border-bottom: 3px solid;
+    
+}
+
+.modal_container, 
+.modal_container_2, 
+.modal_container_3,
+ .modal_container_4, 
+ .modal_container_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 53, 53, 0.8);
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.modal_container.show, 
+.modal_container_2.show, 
+.modal_container_3.show, 
+.modal_container_4.show, 
+.modal_container_5.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+.modal {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #101010;
+    width: 729px;
+    max-width: 100%;
+    height: 467px;
+    padding: 2em 1em;
+    border-radius: 16px;
+    
+}
+
+#james_get_quote {
+    position: relative;
+    right: 2.7em;
+    margin-top: 2em;
+}
+
+button {
+    width: 161px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .2s;
+
+}
+
+button:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+.position-j {
+    position: relative;
+    top: 1.2em;
+    right: 3.5em;
+}
+
+.close_j {
+    position: relative;
+    left: 12em;
+    cursor: pointer;
+}
+
+
+.quote {
+    position: relative;
+    top: 3em;
+    right: 4em;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5em;
+
+    
+}
+
+#chris_get_quote {
+    position: fixed;
+    right: 21.7em;
+    bottom: 7em;
+}
+
+.position-c {
+    position: relative;
+    top: 3.5em;
+    right: 4em;
+}
+
+.close_c {
+    position: relative;
+    left: 9em;
+    cursor: pointer;
+}
+
+
+.quote_c {
+    position: relative;
+    right: 4em;
+    top: 1em;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#dale_get_quote {
+    position: fixed;
+    right: 22em;
+    bottom: 7em;
+}
+
+.position-d{
+    position: relative;
+    top: 7em;
+    right: 2em;
+}
+
+.close_d {
+    position: relative;
+    left: 11em;
+    cursor: pointer;
+}
+
+
+.quote_d {
+    position: relative;
+    right: 4em;
+    top: 3em;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#paula_get_quote {
+    position: fixed;
+    right: 21em;
+    bottom: 7em;
+}
+
+.position-p{
+    position: relative;
+    top: 4.2em;
+    right: 3.5em;
+}
+
+.close_p {
+    position: relative;
+    left: 9em;
+    cursor: pointer;
+}
+
+
+.quote_p {
+    position: relative;
+    right: 4em;
+    top: 1em;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#tinker_get_quote {
+    position: fixed;
+    right: 21em;
+    bottom: 7em;
+}
+
+.position-t{
+    position: relative;
+    top: 8em;
+    right: 5em;
+}
+
+.close_t {
+    position: relative;
+    left: 8em;
+    cursor: pointer;
+}
+
+
+.quote_t {
+    position: relative;
+    right: 4em;
+    top: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+

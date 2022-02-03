@@ -7,7 +7,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 header {
@@ -44,7 +44,7 @@ a {
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     padding: 5px;
 }
@@ -90,6 +90,7 @@ h3 {
     display: grid;
     grid-template-columns: 2fr 2fr;
     height: 340px;
+    border-top: 1px solid white;
     /* background-color: wheat; */
 }
 
@@ -102,7 +103,8 @@ img {
 }
 
 .angelie {
-    background-color: tomato;
+    /* background-color: tomato; */
+    border-right: 1px solid white;
 }
 
 
@@ -155,5 +157,14 @@ img {
 }
 
 .kagie {
-    background-color: thistle;
+    /* background-color: thistle; */
+    
+}
+
+.bg-header {
+    background-color: #F04539;
+    color: #131214;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
 }

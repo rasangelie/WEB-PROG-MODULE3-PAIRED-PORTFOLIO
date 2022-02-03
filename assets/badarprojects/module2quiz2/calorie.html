@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css">    
+        <link rel="icon" href="IMG\ab favi.png" type="png">
+        <title>Calculate Your Calories</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <img src="IMG\ab logo.png" width="61" height="54"></a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#fitness">Fitness</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="underline" href="#calculate">Calculate Calories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="horizontal-line">
+
+        </header>  
+
+
+
+        <div class="calculate-about">
+            <h2> 
+                Calculate Your Daily Calories
+            </h2>
+            <p class="p-padding">
+                Knowing how many calories you need to consume each day is essential for losing, gaining,
+                or maintaining weight. One way to determine this with a technique called the <b>Harris-Benedict 
+                    formula</b>, which is one method used to estimate your <b>basal metabolic rate (BMR)</b>.<br><br>
+
+                By definition, BMR is your rate of metabolism (the conversion of calories and oxyge
+                n to energy) at rest. It is the minimum level of energy required to sustain vital functions
+                such as breathing, digestion, and circulation. The Harris-Benedict formula is often used to
+                assist weight loss by ensuring that you reduce the intake of calories below what you need 
+                to maintain weight. It was revised in 1984 to be more accurate and was used up until 1990, 
+                when the Mifflin-St Jeor Equation was introduced. The Mifflin-St Jeor Equation also calculates 
+                BMR, and has been shown to be more accurate than the revised Harris-Benedict Equation. In 
+                calculating your calories, we will use the <b>Mifflin-St Jeor Equation</b>.
+            </p>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-content">
+                <h3 class="title">
+                    Learn How Many Calories You Burn Daily
+                </h3>
+
+                <div class="flex-bg"> 
+                    <div class="inputs">
+                        <h4>
+                            About You
+                        </h4>
+                        <h4 class="metric-bg">
+                            Metric
+                        </h4>
+                    </div>
+    
+                    <div class="inputs">
+    
+                        <div class="bg">
+                            <label for="choose_1" class="radio">
+                                <input type="radio" id="choose_1" class="radio_input" name="choose_gender" value="Male" >
+                                Male
+                            </label>
+                        </div>
+                        
+                        <div class="bg">
+                            <label for="choose_2" class="radio">
+                                <input type="radio" id="choose_2" class="radio_input" name="choose_gender" value="Female" >
+                                Female
+                            </label>
+                        </div>
+                        
+                             
+                    </div>
+    
+                    <div class="inputs">
+                        <input type="text" id="age" name="age" placeholder="Age" class="textbox_size input">
+                        <input type="text" id="height" name="height" placeholder="Height in cm" class="textbox_size input" >
+                    </div>
+    
+    
+                    <div class="inputs">
+                        <input type="text" id="weight" name="weight" placeholder="Current Weight in kg" class="textbox_size input">
+                        
+                    </div>
+    
+                    <h4 class="h4_margin">How Active Are You?</h4>
+    
+                    <div class="inputs_4">
+    
+                        <div class="bg">
+                            <label for="choose_3" class="radio">
+                                <input type="radio" id="choose_3" class="radio_input" name="choose_state" value="Sedentary" >
+                                Sedentary
+                            </label>
+                        </div>
+    
+                        <div class="bg">
+                            <label for="choose_4" class="radio">
+                                <input type="radio" id="choose_4" class="radio_input" name="choose_state" value="Light Activity" >
+                                Light Activity
+                            </label>
+                        </div>
+    
+                        <div class="bg">
+                            <label for="choose_5" class="radio">
+                                <input type="radio" id="choose_5" class="radio_input" name="choose_state" value="Moderate Activity" >
+                                Moderate Activity
+                            </label>
+                        </div>
+    
+                        <div class="bg">
+                            <label for="choose_6" class="radio">
+                                <input type="radio" id="choose_6" class="radio_input" name="choose_state" value="Very Active" >
+                                Very Active
+                            </label>
+                        </div>
+
+                        <div class="bg">
+                            <label for="choose_7" class="radio">
+                                <input type="radio" id="choose_7" class="radio_input" name="choose_state" value="Active" >
+                                Active
+                            </label>
+                        </div>
+
+                        <div class="bg">
+                            <label for="choose_8" class="radio">
+                                <input type="radio" id="choose_8" class="radio_input" name="choose_state" value="Extra Active" >
+                                Extra Active
+                            </label>
+                        </div>
+    
+                    </div>
+                    
+                    
+
+                   
+                    <button id="btn_calculate" onclick="togglePopup()" class="button_style"> 
+                        CALCULATE
+                    </button>
+                   
+                    
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="popup" id="popup-1">
+            <div class="overlay">
+
+            </div>
+            
+            <div class="content">
+
+                <div class="close-btn" onclick="togglePopup()"> &times;</div>
+
+                <div class="modal_p1">
+                    <div class="inputs_modal">
+                        <h4 class="food_consumed">
+                            Food Consumed:
+                        </h4>
+                        <input type="text" id="food_consumed" name="food" placeholder="Name of food" class="textbox_size_2 input">
+                            
+                    </div>
+                </div>
+                
+                
+
+                <div class="modal_p2">
+                    <div class="inputs_modal">
+                        <h4 class="food_cal">
+                            Food Calories:
+                        </h4>
+                        <input type="text" id="food_calories" name="calories" placeholder="Amount of Calories" class="textbox_size_3 input">
+                            
+                    </div>
+                </div>
+                
+                
+
+                <div class="btn_modal">
+                    <button class="modal_button" onclick="getCalories()">
+                        CALCULATE
+                    </button>
+                </div>
+
+                <hr class="horizontal-line-2">
+
+                <div class="result">
+                    <h4 class="red position">
+                        Your Results:
+                    </h4>
+
+                    <h3 id="get_calories" class="get_calories">
+                        You burn <span id="value"><b>______</b></span> calories during a typical day.
+                    </h3>
+
+                    <hr class="horizontal-line-3">
+
+                    <h4 class="get_food red">
+                        After consuming <span id="get_food"><b>______</b></span>,
+                    </h4>
+                    
+                    <h3 id="get_newcalories" class="get_newcalories">
+                        You burned <span id="value_get_calories"><b>______</b></span> calories.
+                    </h3>
+
+                </div>
+
+
+            </div>
+        </div>
+        
+        
+        <script src="app.js"></script>
+
+    </body>
+
+
+</html>

@@ -1,6 +1,6 @@
 html {
     background-color: #131214;
-    
+    /* background-color: white; */
     
 }
 
@@ -32,9 +32,10 @@ header {
 .nav-item{
     list-style: none;
     margin-right: 1em;
-    margin-top: 1.5em;
+    /* margin-top: 0.25em; */
   
     position: relative;
+    bottom: 0.50em;
    
     
 }
@@ -76,3 +77,83 @@ h2 {
 
 }
 
+h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 340px;
+    /* background-color: wheat; */
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.angelie {
+    background-color: tomato;
+}
+
+
+.ange-dp {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+   
+    bottom: 5em;
+    z-index: 1;
+    
+    /* transition: 0.5s; */
+   
+}
+
+
+/* .ange-dp:hover {
+    width: 269px;
+    height: 269px;
+    
+} */
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: wheat; */
+    border-top: 1px solid white;
+    position: relative;
+    top: 16em;
+    height: 5.2em;
+    
+}
+
+.name {
+    margin-left: 3em;
+}
+
+.arrow-button {
+    position: relative;
+    right: 2em;
+}
+
+
+.arrow {
+    padding-left: 20em;
+    position: relative;
+    bottom: 1em;
+}
+
+/* .kagie {
+    background-color: thistle;
+} */

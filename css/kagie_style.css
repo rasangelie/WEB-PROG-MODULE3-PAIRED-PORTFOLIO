@@ -1,0 +1,294 @@
+html {
+    background-color: #131214;
+   
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+   
+}
+
+header {
+    background-color: #131214;
+    height: 5em;
+    position: relative;
+    bottom: 16px;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 1em;
+    
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 1em;
+    position: relative;
+    bottom: 0.50em;
+   
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.header-div {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 3em;
+    bottom: 1em;
+}
+
+.nav-item1  {
+
+     
+    list-style: none;
+    margin-right: 0.25em;
+    margin-top: 1em;
+    margin-left: 3em;
+    position: relative;
+}
+
+.bg-header {
+    background-color: #F04539;
+    color: #131214;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.title {
+    position: relative;
+    bottom: 3em;
+}
+
+hr {
+    margin-left: 8em;
+    margin-right: 8em;
+    border: 0.25px solid white;
+    opacity: 0.05;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 1.5em;
+
+}
+
+.heading {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 7em;
+    position: relative;
+    bottom: 1.5em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2em 8em 2em 8em;
+    row-gap: 5em;
+    
+    
+}
+
+.flex-items {
+    width: 312px;
+    height: 457px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.angelie-1 {
+    z-index: 2;
+ }
+
+
+.circle-gradient {
+    width: 127px;
+    height: 127px;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 90, 87, 0.75),
+        rgba(2, 111, 221, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+
+
+.text {
+    margin: 0 1em 0 2em;
+    position: relative;
+    bottom: 0.5em;
+}
+
+
+h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+
+.sub-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    position: relative;
+    bottom: 1.5em;
+}
+
+.button {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #F04539;
+    padding: 0.5em 5em 0.5em 5em;
+    border-radius: 16px;
+    position: relative;
+    left: 2em;
+    bottom: 0.5em;
+   
+
+}
+
+
+/*Country Attractions*/
+ 
+.angelie-2 {
+   
+    position: relative;
+    left: 0.75em;
+    z-index: 2;
+ }
+
+ .button1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #F04539;
+    padding: 0.5em 5em 0.5em 5em;
+    border-radius: 16px;
+    position: relative;
+    left: 2em;
+    bottom: 1em;
+   
+
+}
+
+/*Quote Generator*/
+
+.illustration-generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.angelie-3 {
+   
+    position: relative;
+    left: 2em;
+    top: 2em;
+    z-index: 2;
+ }
+
+.text-generator {
+    margin: 3.8em 1em 0 2em;
+    position: relative;
+    bottom: 0.5em;
+}
+
+.button3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #F04539;
+    padding: 0.5em 5em 0.5em 5em;
+    border-radius: 16px;
+    position: relative;
+    left: 2em;
+    top: 0.25em;
+   
+}
+
+/*Calorie Tracker*/
+
+.illustration-calorie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+/*Online Animal Adaption*/
+
+.illustration-adaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+/*API FETCH2*/
+
+.illustration-fetch2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+/*Hover color*/
+.yellow:hover {
+    background-color: #FFC003;
+}
+
+.red:hover {
+    background-color: #720800;
+}
+
+.blue:hover {
+    background-color: #53a4df;
+}

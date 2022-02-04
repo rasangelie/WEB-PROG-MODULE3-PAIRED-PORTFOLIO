@@ -123,6 +123,13 @@ h2 {
     height: 457px;
     border: 1px solid white;
     border-radius: 50px;
+    transition: transform .2s;
+}
+
+.flex-items:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
 }
 
 .illustration {
